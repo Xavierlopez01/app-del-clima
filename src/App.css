@@ -4,6 +4,8 @@ body {
     box-sizing: border-box;
     margin: 0;
     color: #20b2aa;
+    background-image: url(../public/img/climate.png);
+    width: 100%;
 }
 .load {
     width: 100%;
