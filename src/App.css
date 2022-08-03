@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;700&family=Josefin+Sans:wght@300;400;800&display=swap');
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    color: #20b2aa;
+}
+.load {
+    width: 100%;
+}
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: #ccc;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #0005;
+    width: 470px;
+    height: auto;
+}
+.card__title {
+    text-align: center;
+}
+.card__country {
+    text-align: center;
+}
+.card__container {
+    display: flex;
+}
+.card__container-contents {
+    align-items: center;
+}
+.card__container-title {
+    text-align: center;
+}
+.card__container-data {
+    list-style: none;
+    text-align: start;
+}
+.card__temp {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card__temp-temp {
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.card__temp-btn {
+    margin-bottom: 10px;
+    padding: 0.5em;
+    background-color: lightseagreen;
+    color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #20b2aa;
+    border: none;
+    cursor: pointer;
+}
+.card__container-data-data {
+    font-size: 1.5rem;
+}
+.footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: lightseagreen;
+}
