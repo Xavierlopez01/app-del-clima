@@ -32,10 +32,12 @@ const CardWeather = ({ lat, lon}) => {
 
     const handleClick = () => setIsCelsius(!isCelsius)
 
+
     if(isloading){
         return <LoadingScreen />
     }else{
         return (
+            
             <article className='card'>
                 <h1 className='card__title'>Weather App</h1>
                 <h2 className='card__country'>{`${weather?.name}, ${weather?.sys.country}`}</h2>

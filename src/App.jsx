@@ -3,6 +3,7 @@ import './App.css'
 import CardWeather from './components/CardWeather'
 
 
+
 function App() {
 
 
@@ -24,10 +25,9 @@ function App() {
   }, [])
 
 
-
   return (
     <div className="App">
-
+      
       <CardWeather lon={coords?.lon} lat={coords?.lat} />
 
     </div>
